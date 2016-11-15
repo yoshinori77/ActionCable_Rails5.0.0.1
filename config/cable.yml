@@ -3,3 +3,6 @@ development:
 
 test:
   adapter: async
+
+production: &production
+  adapter: redis
